@@ -1,0 +1,16 @@
+cabal-version:      2.4
+name:               intellectual-capital
+version:            0.1.0.0
+author:             Samuel Schlesinger
+maintainer:         samuel@simspace.com
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:  IntellectualCapital,
+                      IntellectualCapital.API
+    build-depends:    base ^>=4.14.1.0,
+                      time ^>=1.11.1.1,
+                      containers ^>=0.6.4.1,
+                      servant ^>=0.18.2
+    hs-source-dirs:   src
+    default-language: Haskell2010
